@@ -19,9 +19,6 @@ REGOLE
    6) Object: Una o piu coppie Nome/valore, dove il valore può essere qualsiasi tipo di dato.
    7) Array: Rappresenta una lista ordinata di elementi, dove ogni elemento può essere qualsiasi tipo di dato.
    8) Symbol: Tipo di dato immutabile, può essere utilizzato come identificatore unico.
-   9) Function: una funzione è un insieme di istruzioni racchiuse in un blocco di codice, che può essere contraddistinto da un nome,
-    può accettare argomenti o parametri di ingresso e restituire dei valori.
-
    */
 
 /* ESERCIZIO 2
@@ -72,3 +69,6 @@ const name2 = "John" ;
 
 const operatoreDisuguaglianza = name1 !== name2;
 console.log("diversi?", operatoreDisuguaglianza);
+/* EXTRA */
+
+const name2Minuscolo = name2.toLowerCase();
