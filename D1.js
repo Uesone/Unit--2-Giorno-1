@@ -55,7 +55,8 @@ console.log("il mio cognome è:", myName)  */
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-/* const sottrazione - 4 - prova ;  */
+const sottrazione = 4 - prova;
+console.log("La sottrazione" + sottrazione);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
