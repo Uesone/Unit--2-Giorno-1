@@ -67,4 +67,8 @@ console.log("il mio cognome è:", myName)
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const name1 = "john" ;
+const name2 = "John" ;
+
+const operatoreDisuguaglianza = name1 !== name2;
+console.log("diversi?", operatoreDisuguaglianza);
