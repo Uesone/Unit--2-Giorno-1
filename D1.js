@@ -25,9 +25,8 @@ REGOLE
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-
-const myName = "Umberto"
-console.log ("il mio nome è: ", myName)
+const myName = "Umberto";
+console.log("il mio nome è: ", myName);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -56,6 +55,8 @@ console.log("il mio cognome è:", myName)  */
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
+/* const sottrazione - 4 - prova ;  */
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 7
@@ -64,11 +65,12 @@ console.log("il mio cognome è:", myName)  */
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-const name1 = "john" ;
-const name2 = "John" ;
+const name1 = "john";
+const name2 = "John";
 
-const operatoreDisuguaglianza = name1 !== name2;
-console.log("diversi?", operatoreDisuguaglianza);
+const operatoreDisuguaglianza = name1 === name2 ? "Uguali" : "Diverse";
+
+console.log("diversi?" + operatoreDisuguaglianza);
 /* EXTRA */
 
 const name2Minuscolo = name2.toLowerCase();
